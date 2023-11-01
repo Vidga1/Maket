@@ -1,0 +1,27 @@
+{
+  "name": "maket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint:css": "stylelint **/*.css",
+    "lint:html": "htmlhint **/*.html" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vidga1/Maket.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vidga1/Maket/issues"
+  },
+  "homepage": "https://github.com/Vidga1/Maket#readme",
+  "devDependencies": {
+    "htmlhint": "^1.1.4",
+    "stylelint": "^15.11.0",
+    "stylelint-config-recommended": "^13.0.0"
+  }
+}

@@ -1,0 +1,21 @@
+.header-grid {
+    display: grid;
+    grid-template-columns: 0.8fr 1fr;
+    gap: 40px;
+}
+
+.header-image {
+    padding: 30px;
+    width: calc(100% - 20px);
+    height: auto;
+}
+
+.header-titles h1,
+.header-titles h2,
+.header-titles h3,
+.header-titles h4 {
+    font-size: 32px;
+    margin: 20px;
+    padding: 0.5rem 0;
+    font-family: 'Roboto', sans-serif; 
+}
