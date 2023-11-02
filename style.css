@@ -51,8 +51,12 @@
     margin-right: 30px;
 }
 
-/* footer {
+footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-} */
+    font-size: 22px;
+    margin: 30px; 
+    font-family: 'Roboto', sans-serif;
+    align-items: start;
+} 
